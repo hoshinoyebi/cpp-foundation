@@ -3,17 +3,17 @@ using namespace std;
 int square(int x){
     return x*x;
 }
-bool isEven(int=y){
-    if (y == 4 ||y == 0){
+bool isEven(int y){
+    if (y % 2 ==0){
         return 1;
-    }else if (y == 7){
+    }else {
         return 0;
     }
 }
 int main(){
     int a;
     cin >> a;
-    if (isEven(a)==1){
+    if (isEven(a)){
         cout << "even";
     }else {
         cout << "odd";
