@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
+
 int square(int x){
     return x*x;
 }
+
 bool isEven(int y){
     if (y % 2 ==0){
         return 1;
@@ -10,14 +12,20 @@ bool isEven(int y){
         return 0;
     }
 }
+
+int maxOfTwo(int x, int y){
+    if (x > y){
+    return x;
+}else {
+    return y;
+}
+}
+
 int main(){
-    int a;
-    cin >> a;
-    if (isEven(a)){
-        cout << "even";
-    }else {
-        cout << "odd";
-    }
+    int a,b;
+    cin >> a >> b;
+    cout << maxOfTwo(a,b);
     return 0;
 }
+
 
