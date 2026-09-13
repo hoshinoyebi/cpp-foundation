@@ -21,10 +21,17 @@ int maxOfTwo(int x, int y){
 }
 }
 
+int sumToN(int x){
+    int sum;
+    for (int n = 1, n < x, n++){
+        sum += n;
+    }return sum;
+}
+
 int main(){
-    int a,b;
-    cin >> a >> b;
-    cout << maxOfTwo(a,b);
+    int a;
+    cin >> a;
+    cout << sumToN(a);
     return 0;
 }
 
