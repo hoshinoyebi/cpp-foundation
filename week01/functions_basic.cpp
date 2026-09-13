@@ -22,8 +22,8 @@ int maxOfTwo(int x, int y){
 }
 
 int sumToN(int x){
-    int sum;
-    for (int n = 1, n < x, n++){
+    int sum = 0;
+    for (int n = 1; n <= x; n++){
         sum += n;
     }return sum;
 }
