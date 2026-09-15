@@ -18,8 +18,8 @@ int applyBonus(int score){
 
 int main(){
 
-int x;
-cin >> x;
-cout << applyBonus(x);
-
+    int x;
+    cin >> x;
+    cout << applyBonus(x);
+return 0;
 }
