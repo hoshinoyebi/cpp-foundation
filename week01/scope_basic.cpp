@@ -15,21 +15,10 @@ int multiply(int x){
 int main(){
     int number;
     cin >> number;
-
-    cout << multiply(number) << endl;
+    int result = multiply(number);
+    cout << result << endl;
 
     return 0;
 }
-
-
-
-
-
-
-
-
-}
-
-
 
 
