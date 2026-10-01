@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main(){
-
+    /*
     int score[5];
     int sum = 0;//加逗號連續建立變數
     double average;
@@ -28,6 +28,21 @@ int main(){
     }
     cout << "Sum = " << sum << endl << "Average = " << average << endl 
          << "Max = " << max << endl << "Min = " << min << endl;
+         */
+    
+    int number[5] = {12, 7, 25, 9, 18};
+    int target;
+    cout << "number[5] = {12, 7, 25, 9, 18}" << endl << "Enter your target number: ";
+    cin >> target;
+    
+    for(int i = 0; i < 5; i++){
+        if(number[i] == target){
+            cout << "Index = " << i;
+            break;
+        }
+    }
+
+
 return 0;        
 }
 
