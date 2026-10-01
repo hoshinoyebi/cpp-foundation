@@ -28,8 +28,7 @@ int main(){
     }
     cout << "Sum = " << sum << endl << "Average = " << average << endl 
          << "Max = " << max << endl << "Min = " << min << endl;
-         */
-    
+*/    
     int number[5] = {12, 7, 25, 9, 18};
     int target;
     cout << "number[5] = {12, 7, 25, 9, 18}" << endl << "Enter your target number: ";
