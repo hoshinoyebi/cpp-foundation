@@ -28,6 +28,6 @@ int main(){
 
     int x;
     cin >> x;
-    cout << countEvenToN(x);
+    cout << countEvenToN(x) << endl;
 return 0;
 }
