@@ -31,14 +31,19 @@ int main(){
 */    
     int number[5] = {12, 7, 25, 9, 18};
     int target;
+    bool found = false;
     cout << "number[5] = {12, 7, 25, 9, 18}" << endl << "Enter your target number: ";
     cin >> target;
     
     for(int i = 0; i < 5; i++){
         if(number[i] == target){
-            cout << "Index = " << i;
+            cout << "Index = " << i << endl;
+            found = true;
             break;
         }
+    }
+    if(!found){
+        cout << "Not found" << endl;
     }
 
 
